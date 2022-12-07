@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+  html {overflow-y: scroll;}
+  body {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+  }
+  img {
+    border: 0;
+    vertical-align: middle;
+  }
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  textarea {
+    resize: vertical;
+  }
+  a {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+  }
+  p,
+  pre {
+  margin: 0;
+    padding: 0;
+  }
+  header,
+  section,
+  footer,
+  article {
+    display: block;
+  }
+
+/* Custom styles
+-------------------------------------------------------- */
+.wrap {
+	padding: 30px;
+}
+.clearfix:before,
+.clearfix:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+.reset {
+	padding: 0;
+	margin: 0;
+}
+ul.personsList {
+	margin-top: 30px !important;
+}
+ul.reset li {
+	list-style: none;
+}
+.wrap h1 {
+	font-size: 24px;
+}
+.wrap h2 {
+	margin-top: 20px;
+	font-size: 20px;
+}
+.wrap h2 .count {
+	background: #96FFA3;
+	padding: 10px;
+	display: inline-block;
+}
+.wrap h2 a {
+	color: #f00;
+}
+.wrap p {
+	margin-top: 40px;
+	font-weight: bold;
+}
+.wrap ul {
+	margin-top: 40px;
+}
+
+ul.personsList {
+  margin: 0;
+  padding: 0;
+}
+ul.personsList li {
+	padding: 10px;
+	background: #ccc;
+	border: 1px solid #fff;
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+ul.personsList li.active {
+	background: #8BFE80;
+	border-bottom: 1px solid #fff;
+}
+ul.personsList li .name {
+	float: left;
+	margin-right: 40px;
+	width: 160px;
+}
+ul.personsList li .trigger {
+	float: left;
+	position: relative;
+}
